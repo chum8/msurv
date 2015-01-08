@@ -1,0 +1,39 @@
+I.  Landing page.
+Require contact info, explain what will be done, check "I Understand,"
+radio e-mail or phone preferred contact.  If success, advance to II.  If failure, reload page.
+
+II. [background]
+write contact info to database 'contact'
+
+III. First two survey questions
+Check fields.  If success, advance to III.  If failure, reload page.
+
+IV.  [background]
+Write to database 'tier1'.
+
+V. Success!
+Confirm receipt.  Offer double chances for answering four more questions.
+Exit or Continue
+
+VI.  Next four survey questions.
+Check fields.  If success, advance to VII.  If failure, reload page.
+
+VII. [background]
+Write to database 'tier2'.
+
+
+VIII. Success!
+Confirm receipt.  Offer double chances for answering four more questions.
+Exit or Continue
+
+IX.  Next four survey questions.
+Check fields.  If success, advance to X.  If failure, reload page.
+
+X. [background]
+Write to database 'tier3'.
+
+XI. [background]
+Join 'contact' 'tier1' 'tier2' 'tier3' to 'master'
+ 
+XII.  Success!
+Confirm and thanks.
